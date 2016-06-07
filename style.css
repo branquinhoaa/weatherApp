@@ -1,0 +1,64 @@
+#data{
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+}
+
+h1, h2{
+  font-family:Cinzel, Lora, PT Serif, Crimson Text, serif;
+  padding:0;
+  margim:0;
+  font-weight:bold;
+}
+
+#convert{
+  font-weight:bold;
+  height:40px;
+  margin-top:5px;
+}
+
+#weather{
+  margin:30px;
+}
+
+#weather p{
+  font-size:20px;
+  padding:10px;
+  text-transform:capitalize;
+}
+#changeIt{
+  display:flex;  
+}
+
+.clear{
+  background-image: url("http://moshlab.com/wp-content/uploads/2015/02/Blue-Water-Beach-Images-Wallpaper-Desktop-528737.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-color:blue;
+  color:#ffff19 ;
+}
+
+.clouds{
+  background-image: url("http://wallpapercave.com/wp/fmVZ9fO.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-color: #9E9898;
+  color:black;
+}
+
+.rain{
+  background-image:url("http://www.wallpaperawesome.com/wallpapers-awesome/wallpapers-full-hd-1920-1080-widescreen-awesome/wallpaper-flower-white-in-the-rain-1920-x-1080-full-hd.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-color:black;
+  color:white;
+}
+
+.default{
+  background-color: black;
+  color:white;  
+}
+
+
